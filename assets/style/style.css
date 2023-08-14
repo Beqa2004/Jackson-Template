@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.left-side {
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(232, 232, 232);
+}
