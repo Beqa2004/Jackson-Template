@@ -10,5 +10,28 @@
   background-color: rgb(232, 232, 232);
   display: flex;
   justify-content: center;
+}
+.jackson {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 40%;
+}
+
+.left-side .jackson img {
+  width: 250px;
+  height: 250px;
+  background-image: url(../img/img1.jpg);
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.left-side .jackson h2 {
+  font-size: 15px;
+}
+
+.left-side .jackson h2 span {
+  color: #2c98f0;
 }
