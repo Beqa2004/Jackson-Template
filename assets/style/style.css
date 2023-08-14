@@ -86,12 +86,26 @@ footer p a {
 
 .right-side h3 {
   font-size: 150px;
+  margin: 0px 0px 30px 0px;
 }
 
 .right-side p {
   font-size: 30px;
+  margin: 0px 0px 30px 0px;
 }
 
 .right-side p a {
   color: #2c98f0;
+}
+
+.right-side .button {
+  height: 50px;
+  width: 300px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
 }
