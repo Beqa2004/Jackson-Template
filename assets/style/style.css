@@ -10,6 +10,7 @@
   background-color: rgb(232, 232, 232);
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .jackson {
   display: flex;
@@ -26,12 +27,30 @@
   background-image: url(../img/img1.jpg);
   background-size: cover;
   border-radius: 100%;
+  margin: 0px 0px 20px 0px;
 }
 
 .left-side .jackson h2 {
   font-size: 15px;
+  margin: 20px 0px 0px 0px;
 }
 
 .left-side .jackson h2 span {
   color: #2c98f0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0px 0px 25px 0px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
