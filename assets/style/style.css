@@ -60,3 +60,17 @@ nav ul li a:hover {
   border-bottom: 2px solid #2c98f0;
   color: #2c98f0;
 }
+
+footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+footer p span {
+  color: #2c98f0;
+}
+
+footer p a {
+  color: #2c98f0;
+  text-decoration: none;
+}
